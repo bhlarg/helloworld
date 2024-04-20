@@ -1,0 +1,26 @@
+/* CSS for h1 */
+h1 {
+    animation: rainbow 5s infinite;
+}
+
+@keyframes rainbow {
+    0%, 100% {
+        color: red;
+    }
+    16.67% {
+        color: orange;
+    }
+    33.33% {
+        color: yellow;
+    }
+    50% {
+        color: green;
+    }
+    66.67% {
+        color: blue;
+    }
+    83.33% {
+        color: indigo;
+    }
+}
+
